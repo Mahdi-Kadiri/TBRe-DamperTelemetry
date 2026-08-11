@@ -49,14 +49,14 @@ Three fault modes discriminated automatically in the FSUK file:
   moves ~1,230 at comparable lateral g. Crosstalk vs logger channel-mapping
   is not resolvable from the data; either way the channels are unusable.
 
-![Channel health metrics, healthy file](figures/fsg_channel_health_metrics.png)
+![Channel health metrics, healthy file](fsg_channel_health_metrics.png)
 
 *All four corners on the healthy FSG file, against the three thresholds
 (dashed). Note the T3 margin is the tightest of the three — 0.94 against a
 0.85 threshold — which is why T3 is documented as file-level support rather
 than a primary test.*
 
-![Channel timelines, healthy file](figures/fsg_channel_timelines.png)
+![Channel timelines, healthy file](fsg_channel_timelines.png)
 
 *Per-channel timeline with the verdict in each title. The two driving stints
 are visible either side of the driver change at t ≈ 1745–1911 s, and the
@@ -156,7 +156,7 @@ high-passed out. Plot axes are labelled accordingly.
 | Stroke used (p99–p1) | 21.9–27.8 mm per corner | damper domain |
 | Time within 1 mm of observed travel extremes | ≤ 0.27% | bump-stop-proximity proxy only |
 
-![Roll and pitch gradients](figures/fsg_roll_pitch_gradients.png)
+![Roll and pitch gradients](fsg_roll_pitch_gradients.png)
 
 *Both axes are 0.1–3 Hz band-passed, labelled as such. Left: total suspension
 roll vs lateral acceleration, 0.712 deg/g at r = 0.904. Right: pitch vs
@@ -164,7 +164,7 @@ longitudinal acceleration with braking (red) and traction (yellow) fitted
 separately — the two slopes are visually indistinguishable, which is the
 null result reported below.*
 
-![Travel usage](figures/fsg_travel_usage.png)
+![Travel usage](fsg_travel_usage.png)
 
 *Damper position distribution per corner, dashed line = static. The bimodality
 is roll: each corner's extended tail sits at ~1.1 g mean lateral with left and
@@ -232,7 +232,7 @@ an acquisition limitation and is stated as one. Selects a contiguous
 ≥95%-moving segment automatically (the earlier version could straddle a stop
 and a sensor-failure onset).
 
-![Damper position spectra](figures/fsg_damper_spectra.png)
+![Damper position spectra](fsg_damper_spectra.png)
 
 *Every corner shows the same shape: energy collapsing above ~1 Hz with no
 resolvable resonance peak. This is the evidence for the claim that 20 Hz
@@ -240,7 +240,7 @@ logging cannot support conventional damper frequency analysis on this car —
 the plot is included because the negative result is the point, not because
 it reveals a feature.*
 
-![Low-frequency damper velocity distribution](figures/fsg_damper_velocity_lowfreq.png)
+![Low-frequency damper velocity distribution](fsg_damper_velocity_lowfreq.png)
 
 *Velocity distributions, ~2 Hz bandwidth. Symmetric and heavy-tailed, with
 bump/rebound mean ratios of 0.89–1.06. These are **not** peak damper
