@@ -1,0 +1,16 @@
+# Team telemetry - never publish
+*.csv
+*.xlsx
+*.xls
+*.clf
+*.OLRes
+
+# Generated outputs
+*.png
+*.fig
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.asv
+octave-workspace
