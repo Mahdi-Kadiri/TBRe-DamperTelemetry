@@ -5,9 +5,10 @@
 *.clf
 *.OLRes
 
-# Generated outputs
+# Generated outputs (but keep the committed figures used by the README)
 *.png
 *.fig
+!figures/*.png
 
 # OS / editor
 .DS_Store
