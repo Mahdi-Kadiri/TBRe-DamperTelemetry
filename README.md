@@ -52,7 +52,7 @@ loss that a suspension-only calculation misses entirely. The tyre-roll
 figure (0.154 deg/g) independently agrees with the team's design submission
 (0.171/0.174) to about 10%.
 
-![Roll and pitch gradients](fsg_roll_pitch_gradients.png)
+![Roll and pitch gradients](IvanAxelEnduranceFSG25_2025Car_GenericTesting_a_3780_gradients.png)
 
 *Both axes 0.1–3 Hz band-passed. Left: suspension roll vs lateral
 acceleration, 0.712 deg/g at r = 0.904. Right: pitch vs longitudinal
@@ -104,7 +104,7 @@ tighter side further, so no rate reduction is recommended on travel grounds.
 A single stroke-utilisation figure would have shown roughly half the travel
 unused and pointed the opposite way. The asymmetry is the result.
 
-![Travel usage](fsg_travel_usage.png)
+![Travel usage](IvanAxelEnduranceFSG25_2025Car_GenericTesting_a_3780_travel_usage.png)
 
 *Damper position distribution per corner, dashed line = static. The
 bimodality is roll: each corner's extended tail sits at ~1.1 g mean lateral
@@ -206,14 +206,14 @@ this tool does not have.
 
 ---
 
-![Channel health metrics](fsg_channel_health_metrics.png)
+![Channel health metrics](IvanAxelEnduranceFSG25_2025Car_GenericTesting_a_3780_channel_health.png)
 
 *All four corners of the healthy file against the three thresholds (dashed).
 The low-frequency test has the tightest margin — 0.94 against a 0.85
 threshold — which is why it is documented as file-level support rather than
 a primary test.*
 
-![Channel timelines](fsg_channel_timelines.png)
+![Channel timelines](IvanAxelEnduranceFSG25_2025Car_GenericTesting_a_3780_channel_timelines.png)
 
 *Per-channel timeline with the verdict in each title. The two driving stints
 sit either side of the driver change at t ≈ 1745–1911 s.*
@@ -252,14 +252,14 @@ sit either side of the driver change at t ≈ 1745–1911 s.*
 
 ---
 
-![Damper position spectra](fsg_damper_spectra.png)
+![Damper position spectra](IvanAxelEnduranceFSG25_2025Car_GenericTesting_a_3780_damper_fft.png)
 
 *Every corner shows the same shape: energy collapsing above ~1 Hz with no
 resolvable resonance peak. Included because the negative result is the
 point — 20 Hz logging cannot support conventional damper frequency analysis
 on this car.*
 
-![Low-frequency damper velocity distribution](fsg_damper_velocity_lowfreq.png)
+![Low-frequency damper velocity distribution](IvanAxelEnduranceFSG25_2025Car_GenericTesting_a_3780_damper_velocity_hist.png)
 
 *Velocity distributions, ~2 Hz bandwidth. Symmetric and heavy-tailed, with
 bump/rebound mean ratios of 0.89–1.06. These are **not** peak damper
