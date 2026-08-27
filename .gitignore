@@ -8,7 +8,12 @@
 # Generated outputs (but keep the committed figures used by the README)
 *.png
 *.fig
-!figures/*.png
+!*_gradients.png
+!*_travel_usage.png
+!*_channel_health.png
+!*_channel_timelines.png
+!*_damper_fft.png
+!*_damper_velocity_hist.png
 
 # OS / editor
 .DS_Store
